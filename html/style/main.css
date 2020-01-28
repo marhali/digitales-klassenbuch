@@ -1,0 +1,138 @@
+/*
+ * Reset default margin for all browser engines.
+ */
+
+body {
+    margin: 0;
+    background: #e6efe9;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    height: 50px;
+    background: #004e64;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.section-box {
+    height: 23px;
+    background: #001021;
+    color: white;
+    text-decoration: underline;
+    padding: 4px;
+}
+
+.section-box p {
+    margin: 0 auto;
+}
+
+h1,
+h1 a:visited,
+h1 a:link,
+h3,
+h3 a:visited,
+h3 a:link {
+    color: white;
+    background: #004e64;
+    display: inline-block;
+    padding: 15px;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+    margin-right: 30px;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset],
+button {
+    background-color: #001021;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+input[type=date],
+select {
+    background: white;
+    color: #001021;
+    border: 2px solid #001021;
+    margin: 4px 2px;
+    width: 500px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.timetable input[type=text],
+.timetable input[type=email],
+.timetable input[type=password],
+.timetable input[type=number],
+.timetable input[type=date],
+.timetable select {
+    background: white;
+    color: #001021;
+    border: 2px solid #001021;
+    margin: 4px 2px;
+    width: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+label {
+    color: #001021;
+}
+
+.content {
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00a5cf;
+    color: white;
+}
